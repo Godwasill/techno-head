@@ -2375,7 +2375,7 @@ void main(){
       const txt=['seed '+s,'bar 0000.00','bpm '+ctrl.bpm,'swing --','density '+ctrl.density.toFixed(2),'weird '+ctrl.weird.toFixed(2)].join('\n');
       blocks[0].textContent=txt; blocks[1].textContent='mode idle\nlayers 0\nlevel '+ctrl.level.toFixed(2);
       blocks[2].textContent=''; blocks[3].textContent='';
-      blocks[4].textContent=mesh; blocks[5].textContent='press start';
+      blocks[4].textContent=mesh; blocks[5].innerHTML='<a href="https://post-techno.tilda.ws/gen1" target="_blank" style="color:inherit;text-decoration:underline;">how it works</a>';
       return;
     }
     const d=eng.describe();
